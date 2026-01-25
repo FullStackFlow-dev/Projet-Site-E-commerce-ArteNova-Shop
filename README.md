@@ -110,21 +110,80 @@ python -m http.server 8000
 
 ```
 artenova-shop/
+artenova-shop/
 │
-├── index.html          # Page principale
-├── styles.css          # Feuille de styles
-├── script.js           # Scripts JavaScript
-├── README.md           # Documentation (ce fichier)
-├── .gitignore         # Fichiers à ignorer par Git
+├── 📁 assets/                    # Toutes les ressources du site
+│   │
+│   ├── 📁 images/               # Images du site
+│   │   ├── 📁 products/         # Images des produits
+│   │   │   ├── adidas-camps.jpg
+│   │   │   ├── air-force-one.jpg
+│   │   │   ├── chemise-plissee.jpg
+│   │   │   ├── bijoux-artisanaux.jpg
+│   │   │   ├── ceramique.jpg
+│   │   │   └── savons-naturels.jpg
+│   │   │
+│   │   ├── 📁 hero/             # Images hero/bannières
+│   │   │   └── banner.jpg
+│   │   │
+│   │   ├── 📁 blog/             # Images pour le blog
+│   │   │   ├── article-1.jpg
+│   │   │   └── article-2.jpg
+│   │   │
+│   │   ├── 📁 icons/            # Icônes personnalisées
+│   │   │   └── favicon.png
+│   │   │
+│   │   └── logo.png             # Logo principal
+│   │
+│   ├── 📁 styles/               # Fichiers CSS modulaires
+│   │   ├── variables.css        # Variables CSS (couleurs, espacements)
+│   │   ├── reset.css            # Reset CSS
+│   │   ├── main.css             # Styles généraux
+│   │   ├── header.css           # Styles du header
+│   │   ├── footer.css           # Styles du footer
+│   │   ├── hero.css             # Section hero
+│   │   ├── products.css         # Section produits
+│   │   ├── services.css         # Section services
+│   │   ├── blog.css             # Section blog
+│   │   ├── newsletter.css       # Newsletter
+│   │   └── responsive.css       # Media queries
+│   │
+│   └── 📁 scripts/              # Fichiers JavaScript modulaires
+│       ├── main.js              # Script principal
+│       ├── cart.js              # Gestion du panier
+│       ├── menu.js              # Menu hamburger
+│       ├── carousel.js          # Carrousel produits
+│       ├── countdown.js         # Compte à rebours
+│       └── newsletter.js        # Formulaire newsletter
 │
-├── images/            # Dossier pour les images (à créer)
-│   ├── products/      # Images des produits
-│   ├── blog/          # Images du blog
-│   └── icons/         # Icônes personnalisées
+├── 📁 pages/                    # Pages additionnelles
+│   ├── products.html            # Page liste produits
+│   ├── product-detail.html      # Page détail produit
+│   ├── cart.html                # Page panier
+│   ├── checkout.html            # Page paiement
+│   ├── about.html               # Page à propos
+│   ├── contact.html             # Page contact
+│   └── blog.html                # Page blog
 │
-└── assets/            # Ressources additionnelles (à créer)
-    ├── fonts/         # Polices personnalisées
-    └── videos/        # Vidéos (si nécessaire)
+├── 📄 index.html                # Page d'accueil
+│
+├── 📚 Documentation
+│   ├── README.md                # Documentation principale
+│   ├── QUICKSTART.md            # Guide démarrage rapide
+│   ├── DEPLOYMENT.md            # Guide déploiement
+│   ├── CONTRIBUTING.md          # Guide contribution
+│   └── CHANGELOG.md             # Historique versions
+│
+├── ⚙️ Configuration
+│   ├── .gitignore               # Fichiers Git à ignorer
+│   ├── package.json             # Configuration npm
+│   ├── netlify.toml             # Config Netlify
+│   ├── vercel.json              # Config Vercel
+│   └── LICENSE                  # Licence MIT
+│
+└── 📁 docs/                     # Documentation additionnelle (optionnel)
+    ├── screenshots/             # Captures d'écran
+    └── guides/   
 ```
 
 ### Description des fichiers principaux :
