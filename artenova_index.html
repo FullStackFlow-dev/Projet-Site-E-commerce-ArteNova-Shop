@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Métadonnées de base pour le SEO et l'affichage -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ArtéNova Shop - Votre boutique en ligne pour des produits artisanaux de qualité">
+    <title>ArtéNova Shop - Boutique en ligne</title>
+    
+    <!-- Lien vers la feuille de styles CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ========== HEADER PRINCIPAL ========== -->
+    <header class="header">
+        <!-- Barre d'informations supérieure -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <!-- Informations de contact -->
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h5>Appelez-nous: (+33) 1 23 45 67 89</h5>
+                                <p>E-mail: support@artenovashop.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h5>Horaires d'ouverture:</h5>
+                                <p>Lun - Sam (9h00 - 19h00)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Réseaux sociaux -->
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barre de navigation principale -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <h1>ArtéNova Shop</h1>
+                    </div>
+
+                    <!-- Menu de navigation -->
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#products">Produits</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#shop">Boutique</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                    <!-- Actions utilisateur -->
+                    <div class="nav-actions">
+                        <a href="#" class="btn-icon"><i class="fas fa-search"></i></a>
+                        <a href="#" class="btn-icon"><i class="fas fa-user"></i> Connexion</a>
+                        <a href="#" class="btn-icon"><i class="fas fa-edit"></i> S'inscrire</a>
+                        <a href="#" class="cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">0</span> Articles - (0.00€)
+                        </a>
+                    </div>
+
+                    <!-- Bouton hamburger pour mobile -->
+                    <button class="hamburger" id="hamburger" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== SECTION HERO ========== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="welcome-text">Bienvenue sur</p>
+                    <h1 class="hero-title">ArtéNova Shop</h1>
+                    <h2 class="hero-subtitle">La Meilleure Boutique en Ligne</h2>
+                    <p class="hero-description">
+                        Découvrez notre sélection de produits artisanaux de qualité supérieure. 
+                        Chaque article est soigneusement sélectionné pour vous offrir le meilleur.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">En savoir plus</a>
+                        <a href="#shop" class="btn btn-secondary">Acheter maintenant</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <i class="fas fa-palette hero-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION PRODUITS VEDETTES ========== -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Produits Vedettes</h2>
+            
+            <!-- Contrôles de navigation du carrousel -->
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" id="prevBtn" aria-label="Précédent">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" id="nextBtn" aria-label="Suivant">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Grille de produits -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Produit 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-cookie-bite product-icon"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Biscuits Artisanaux</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="price">12.50€</p>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-mug-hot product-icon"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Céramique Artisanale</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price">25.00€</p>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-soap product-icon"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Savons Naturels</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="price">8.50€</p>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Produit 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-gem product-icon"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bijoux Artisanaux</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price">45.00€</p>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="#shop" class="btn btn-primary">Voir plus de produits</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION À PROPOS ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <i class="fas fa-store about-icon"></i>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">À propos d'ArtéNova Shop</h2>
+                    <h3>Une boutique dédiée aux produits artisanaux de qualité</h3>
+                    <p>
+                        ArtéNova Shop est votre destination privilégiée pour découvrir des produits 
+                        artisanaux uniques et de haute qualité. Fondée sur la passion de l'artisanat 
+                        et du savoir-faire traditionnel, notre boutique propose une sélection 
+                        soigneusement choisie d'articles créés par des artisans talentueux.
+                    </p>
+                    <p>
+                        Chaque produit que nous proposons raconte une histoire et reflète l'engagement 
+                        de nos artisans envers l'excellence. Nous croyons en la valeur du fait-main 
+                        et en l'importance de soutenir les créateurs locaux.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION SERVICES ========== -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Livraison Gratuite</h3>
+                    <p>
+                        Profitez de la livraison gratuite pour toutes vos commandes. 
+                        Nous livrons partout en France avec soin et rapidité.
+                    </p>
+                    <a href="#" class="service-link">En savoir plus</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    <h3>Retours sous 30 jours</h3>
+                    <p>
+                        Vous n'êtes pas satisfait ? Retournez vos articles dans les 30 jours 
+                        suivant la réception pour un remboursement complet.
+                    </p>
+                    <a href="#" class="service-link">En savoir plus</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Garantie Satisfait ou Remboursé</h3>
+                    <p>
+                        Nous garantissons la qualité de nos produits. Si vous n'êtes pas satisfait, 
+                        nous vous remboursons intégralement.
+                    </p>
+                    <a href="#" class="service-link">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION OFFRES DE LA SEMAINE ========== -->
+    <section class="deals">
+        <div class="container">
+            <h2 class="section-title">Offres de la Semaine</h2>
+            
+            <!-- Compte à rebours -->
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-value" id="days">00</span>
+                    <span class="countdown-label">Jours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="hours">00</span>
+                    <span class="countdown-label">Heures</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="minutes">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="seconds">00</span>
+                    <span class="countdown-label">Secondes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION BLOG ========== -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">Dernières Actualités du Blog</h2>
+            
+            <div class="blog-grid">
+                <!-- Article 1 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-image blog-icon"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">24 Janvier 2026</span>
+                            <span class="blog-author">Par <strong>ArtéNova</strong></span>
+                            <span class="blog-comments">8 Commentaires</span>
+                        </div>
+                        <h3>L'Art de l'Artisanat Moderne</h3>
+                        <p>
+                            Découvrez comment les artisans contemporains réinventent les techniques 
+                            traditionnelles pour créer des pièces uniques et intemporelles.
+                        </p>
+                        <a href="#" class="blog-link">Lire la suite</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-palette blog-icon"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">20 Janvier 2026</span>
+                            <span class="blog-author">Par <strong>ArtéNova</strong></span>
+                            <span class="blog-comments">15 Commentaires</span>
+                        </div>
+                        <h3>Guide d'Achat : Choisir ses Produits Artisanaux</h3>
+                        <p>
+                            Un guide complet pour vous aider à sélectionner les meilleurs produits 
+                            artisanaux selon vos besoins et votre budget.
+                        </p>
+                        <a href="#" class="blog-link">Lire la suite</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="text-center">
+                <a href="#" class="btn btn-primary">Voir tous les articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION NEWSLETTER ========== -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="newsletter-text">
+                    <h2>Abonnez-vous à notre Newsletter</h2>
+                    <p>
+                        Recevez nos dernières offres, nouveautés et conseils directement dans votre boîte mail.
+                    </p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Votre adresse e-mail" required>
+                    <button type="submit" class="btn btn-primary">S'abonner</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <!-- Section supérieure du footer -->
+            <div class="footer-top">
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Appelez-nous:</strong>
+                            <p>(+33) 1 23 45 67 89</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>E-mail:</strong>
+                            <p>support@artenovashop.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Horaires d'ouverture:</strong>
+                            <p>Lun - Sam (9h00 - 19h00)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section principale du footer -->
+            <div class="footer-main">
+                <!-- À propos -->
+                <div class="footer-column">
+                    <h3>À propos de nous</h3>
+                    <p>
+                        ArtéNova Shop est votre boutique en ligne dédiée aux produits artisanaux 
+                        de qualité. Nous valorisons le savoir-faire et l'excellence.
+                    </p>
+                    <a href="#about" class="footer-link">En savoir plus</a>
+                </div>
+
+                <!-- Liens rapides -->
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#products">Produits</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Suivez-nous -->
+                <div class="footer-column">
+                    <h3>Suivez-nous</h3>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                        <a href="#" aria-label="Pinterest">
+                            <i class="fab fa-pinterest"></i> Pinterest
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Galerie Instagram -->
+                <div class="footer-column">
+                    <h3>Instagram</h3>
+                    <div class="instagram-grid">
+                        <div class="instagram-item"><i class="fas fa-camera"></i></div>
+                        <div class="instagram-item"><i class="fas fa-camera"></i></div>
+                        <div class="instagram-item"><i class="fas fa-camera"></i></div>
+                        <div class="instagram-item"><i class="fas fa-camera"></i></div>
+                        <div class="instagram-item"><i class="fas fa-camera"></i></div>
+                        <div class="instagram-item"><i class="fas fa-camera"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 ArtéNova Shop. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
