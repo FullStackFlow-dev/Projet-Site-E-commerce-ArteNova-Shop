@@ -14,7 +14,7 @@ Site e-commerce moderne et responsive pour produits artisanaux de qualité.
 - [Contribution](#contribution)
 - [Licence](#licence)
 
-## 🎯 À propos
+##  À propos
 
 ArtéNova Shop est un site e-commerce professionnel conçu pour présenter et vendre des produits artisanaux. Le site est entièrement responsive et optimisé pour tous les appareils (desktop, tablette, mobile).
 
@@ -28,7 +28,7 @@ ArtéNova Shop est un site e-commerce professionnel conçu pour présenter et ve
 - Newsletter
 - Animations fluides
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 ### Pour les visiteurs :
 - ✅ Parcourir les produits vedettes
@@ -47,7 +47,7 @@ ArtéNova Shop est un site e-commerce professionnel conçu pour présenter et ve
 - ✅ Optimisation SEO
 - ✅ Performance optimisée
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 Ce projet utilise des technologies web standard :
 
@@ -134,7 +134,7 @@ artenova-shop/
 - **script.js** : Logique JavaScript pour l'interactivité
 - **README.md** : Documentation du projet
 
-## 🚀 Déploiement
+##  Déploiement
 
 ### Déploiement sur Netlify
 
@@ -243,7 +243,7 @@ Recherchez et remplacez dans `index.html` :
 <img src="images/votre-image.jpg" alt="Description">
 ```
 
-## 🔧 Configuration Git
+##  Configuration Git
 
 ### Initialiser Git (si pas encore fait)
 
@@ -286,7 +286,7 @@ git checkout -b nom-de-la-branche
 git checkout main
 ```
 
-## 📝 TODO / Améliorations futures
+##  TODO / Améliorations futures
 
 - [ ] Ajouter un système de filtrage des produits
 - [ ] Implémenter une recherche fonctionnelle
@@ -301,7 +301,7 @@ git checkout main
 - [ ] Multilingue (FR/EN)
 - [ ] Mode sombre
 
-## 🤝 Contribution
+##  Contribution
 
 Les contributions sont les bienvenues ! Voici comment contribuer :
 
@@ -317,10 +317,10 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👤 Auteur
 
-**ArtéNova Shop**
-- Website: [artenovashop.com](https://artenovashop.com) (à configurer)
-- Email: support@artenovashop.com
-- GitHub: [@votre-username](https://github.com/votre-username)
+**FullStackFlow-dev**
+- Website: [artenovashop.com](https://artenovashop.com)
+- Email: merphy97@gmail.com
+- GitHub: [@votre-username](https://github.com/FullStackFlow-dev)
 
 ## 🙏 Remerciements
 
