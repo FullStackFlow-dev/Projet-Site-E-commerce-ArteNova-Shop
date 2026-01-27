@@ -14,9 +14,9 @@ Site e-commerce moderne et responsive pour produits artisanaux de qualité.
 - [Contribution](#contribution)
 - [Licence](#licence)
 
-## 🎯 À propos
+## A propos
 
-ArtéNova Shop est un site e-commerce professionnel conçu pour présenter et vendre des produits artisanaux. Le site est entièrement responsive et optimisé pour tous les appareils (desktop, tablette, mobile).
+ArtéNova Shop est une boutique e-commerce conçue comme une vitrine moderne pour des créations artistiques et de mode, alliant esthétique et performance. Elle propose une expérience utilisateur fluide et professionnelle, avec une structure technique pensée pour la scalabilité et la maintenance. Plus qu'un simple site de vente, c'est un projet entrepreneurial et créatif qui sert de laboratoire de développement : chaque nouvelle fonctionnalité, qu'il s'agisse d'une module de paiement, d'une optimisation UX ou d'une gestion des stocks, contribue à batir une plateforme robuste, évolutive et cohérente, reflétant une identité numérique forte. Le site est entièrement responsive et optimisé pour tous les appareils (desktop, tablette, mobile).
 
 ### Caractéristiques principales :
 - Design moderne et attractif
@@ -28,7 +28,7 @@ ArtéNova Shop est un site e-commerce professionnel conçu pour présenter et ve
 - Newsletter
 - Animations fluides
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 ### Pour les visiteurs :
 - ✅ Parcourir les produits vedettes
@@ -47,7 +47,7 @@ ArtéNova Shop est un site e-commerce professionnel conçu pour présenter et ve
 - ✅ Optimisation SEO
 - ✅ Performance optimisée
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 Ce projet utilise des technologies web standard :
 
@@ -246,7 +246,7 @@ vercel
 https://votre-username.github.io/artenova-shop
 ```
 
-## 🎨 Personnalisation
+##  Personnalisation
 
 ### Modifier les couleurs
 
@@ -345,7 +345,7 @@ git checkout -b nom-de-la-branche
 git checkout main
 ```
 
-## 📝 TODO / Améliorations futures
+##  TODO / Améliorations futures
 
 - [ ] Ajouter un système de filtrage des produits
 - [ ] Implémenter une recherche fonctionnelle
@@ -370,7 +370,7 @@ Les contributions sont les bienvenues ! Voici comment contribuer :
 4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrez une Pull Request
 
-## 📄 Licence
+##  Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
@@ -394,8 +394,8 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 📞 Support
 
 Pour toute question ou problème :
-- Ouvrez une [issue](https://github.com/votre-username/artenova-shop/issues)
-- Envoyez un email à support@artenovashop.com
+- Ouvrez une [issue](https://github.com/FullStackFlow.dev/artenova-shop/issues
+- Envoyez un email à merphy97@gmail.com
 
 ---
 
