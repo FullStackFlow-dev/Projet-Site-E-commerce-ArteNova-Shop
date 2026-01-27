@@ -1,0 +1,157 @@
+# ========================================
+# Fichiers et dossiers à ignorer par Git
+# ========================================
+
+# ========== SYSTÈME D'EXPLOITATION ==========
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========== ÉDITEURS DE CODE ==========
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IDEs (WebStorm, PhpStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Atom
+.atom/
+
+# ========== NODE.JS (si utilisé plus tard) ==========
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ========== FICHIERS TEMPORAIRES ==========
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# ========== BUILD ET DISTRIBUTION ==========
+
+# Dossiers de build (si vous utilisez un bundler)
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# ========== ENVIRONNEMENT ==========
+
+# Fichiers d'environnement avec secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ========== TESTS ==========
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output
+
+# ========== AUTRES ==========
+
+# Fichiers compressés
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+
+# Fichiers de base de données locale
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificats SSL (pour développement local)
+*.pem
+*.key
+*.crt
+
+# ========== SPÉCIFIQUE AU PROJET ==========
+
+# Fichiers de configuration personnels
+config.local.js
+config.local.json
+
+# Dossiers de test locaux
+test-uploads/
+temp-files/
+
+# Notes personnelles
+notes.txt
+TODO.md
+NOTES.md
