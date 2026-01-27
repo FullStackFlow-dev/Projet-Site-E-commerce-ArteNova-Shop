@@ -193,7 +193,7 @@ artenova-shop/
 - **script.js** : Logique JavaScript pour l'interactivité
 - **README.md** : Documentation du projet
 
-## 🚀 Déploiement
+##  Déploiement
 
 ### Déploiement sur Netlify
 
