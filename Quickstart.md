@@ -1,18 +1,18 @@
-# Guide de Démarrage Rapide - ArtéNova Shop ⚡
+# Guide de Démarrage Rapide - ArtéNova Shop 
 
 Ce guide vous permettra de démarrer avec ArtéNova Shop en moins de 5 minutes !
 
-## 🎯 Objectif
+##  Objectif
 
 Avoir votre site e-commerce ArtéNova Shop fonctionnel localement et déployé en ligne.
 
-## 📋 Prérequis Minimaux
+##  Prérequis Minimaux
 
 - Un navigateur web moderne (Chrome, Firefox, Safari, Edge)
 - Un compte GitHub (gratuit)
 - Un éditeur de texte (VS Code recommandé)
 
-## 🚀 Installation en 3 étapes
+##  Installation en 3 étapes
 
 ### Étape 1 : Récupérer le code (2 minutes)
 
@@ -48,7 +48,7 @@ cd artenova-shop
 1. Allez sur [netlify.com](https://www.netlify.com)
 2. Créez un compte (gratuit)
 3. Glissez-déposez le dossier du projet dans Netlify
-4. Votre site est en ligne ! 🎉
+4. Votre site est en ligne ! 
 
 **URL de votre site** : `https://votre-site-12345.netlify.app`
 
@@ -65,7 +65,7 @@ Votre site devrait afficher :
 - ✅ Newsletter
 - ✅ Footer complet
 
-## 🎨 Première Personnalisation (5 minutes)
+##  Première Personnalisation (5 minutes)
 
 ### Changer les couleurs
 
@@ -123,7 +123,7 @@ Testez votre site sur différentes tailles :
 
 Le menu devrait devenir un hamburger sur mobile !
 
-## 🔧 Fonctionnalités à Tester
+##  Fonctionnalités à Tester
 
 ### Menu Hamburger (Mobile)
 1. Réduisez la fenêtre ou passez en mode mobile
@@ -154,18 +154,90 @@ Le menu devrait devenir un hamburger sur mobile !
 ## 📦 Structure des Fichiers
 
 ```
+ artenova-shop/
 artenova-shop/
-├── index.html          ← Page principale
-├── styles.css          ← Tous les styles
-├── script.js           ← Toute la logique
-├── README.md           ← Documentation complète
-├── QUICKSTART.md       ← Ce fichier
-├── .gitignore          ← Fichiers à ignorer
-├── package.json        ← Configuration npm
-└── netlify.toml        ← Config Netlify
+│
+├── 📁 assets/                    # Toutes les ressources du site
+│   │
+│   ├── 📁 images/               # Images du site
+│   │   ├── 📁 products/         # Images des produits
+│   │   │   ├── adidas-camps.jpg
+│   │   │   ├── air-force-one.jpg
+│   │   │   ├── chemise-plissee.jpg
+│   │   │   ├── bijoux-artisanaux.jpg
+│   │   │   ├── ceramique.jpg
+│   │   │   └── savons-naturels.jpg
+│   │   │
+│   │   ├── 📁 hero/
+|   |   |    ├── hero-banner.jpg           # Image principale de la bannière
+|   |   |    ├── hero-bg-pattern.svg       # Motif de fond stylisé
+|   |   |    ├── hero-text.svg             # Texte vectorisé ("Nouvelle collection")
+|   |   |    ├── hero-cta-button.png       # Visuel du bouton "Acheter maintenant"
+|   |   |    ├── hero-mobile.webp          # Version mobile optimisée
+|   |   |    ├── hero-accessories.jpg      # Image secondaire (sacs, chaussures)
+|   |   |    └── hero-overlay.png          # Effet graphique en superposition
+│   │   │
+│   │   ├── 📁 blog/             # Images pour le blog
+│   │   │   ├── article-1.jpg
+│   │   │   └── article-2.jpg
+│   │   │
+│   │   ├── 📁 icons/            # Icônes personnalisées
+│   │   │   └── favicon.png
+│   │   │
+│   │   └── logo.png             # Logo principal
+│   │
+│   ├── 📁 styles/               # Fichiers CSS modulaires
+│   │   ├── variables.css        # Variables CSS (couleurs, espacements)
+│   │   ├── reset.css            # Reset CSS
+│   │   ├── main.css             # Styles généraux
+│   │   ├── header.css           # Styles du header
+│   │   ├── footer.css           # Styles du footer
+│   │   ├── hero.css             # Section hero
+│   │   ├── products.css         # Section produits
+│   │   ├── services.css         # Section services
+│   │   ├── blog.css             # Section blog
+│   │   ├── newsletter.css       # Newsletter
+│   │   └── responsive.css       # Media queries
+│   │
+│   └── 📁 scripts/              # Fichiers JavaScript modulaires
+│       ├── main.js              # Script principal
+│       ├── cart.js              # Gestion du panier
+│       ├── menu.js              # Menu hamburger
+│       ├── carousel.js          # Carrousel produits
+│       ├── countdown.js         # Compte à rebours
+│       └── newsletter.js        # Formulaire newsletter
+│
+├── 📁 pages/                    # Pages additionnelles
+│   ├── products.html            # Page liste produits
+│   ├── product-detail.html      # Page détail produit
+│   ├── cart.html                # Page panier
+│   ├── checkout.html            # Page paiement
+│   ├── about.html               # Page à propos
+│   ├── contact.html             # Page contact
+│   └── blog.html                # Page blog
+│
+├── 📄 index.html                # Page d'accueil
+│
+├── 📚 Documentation
+│   ├── README.md                # Documentation principale
+│   ├── QUICKSTART.md            # Guide démarrage rapide
+│   ├── DEPLOYMENT.md            # Guide déploiement
+│   ├── CONTRIBUTING.md          # Guide contribution
+│   └── CHANGELOG.md             # Historique versions
+│
+├── ⚙️ Configuration
+│   ├── .gitignore               # Fichiers Git à ignorer
+│   ├── package.json             # Configuration npm
+│   ├── netlify.toml             # Config Netlify
+│   ├── vercel.json              # Config Vercel
+│   └── LICENSE                  # Licence MIT
+│
+└── 📁 docs/                     # Documentation additionnelle (optionnel)
+    ├── screenshots/             # Captures d'écran
+    └── guides/   
 ```
 
-## 🐛 Problèmes Courants
+##  Problèmes Courants
 
 ### Le site ne s'affiche pas correctement
 - ✅ Vérifiez que tous les fichiers sont au même niveau
@@ -203,7 +275,7 @@ Pour améliorer le site :
 - **JavaScript** : [JavaScript.info](https://javascript.info/)
 - **Git** : [Git - la doc simple](https://rogerdudler.github.io/git-guide/index.fr.html)
 
-## 💡 Idées d'Amélioration
+##  Idées d'Amélioration
 
 Fonctionnalités faciles à ajouter :
 
@@ -233,7 +305,7 @@ Fonctionnalités avancées :
 3. **Créez une issue** si vous trouvez un bug
 4. **Contactez-nous** : support@artenovashop.com
 
-## 🎉 Félicitations !
+##  Félicitations !
 
 Vous avez maintenant un site e-commerce professionnel et responsive !
 
