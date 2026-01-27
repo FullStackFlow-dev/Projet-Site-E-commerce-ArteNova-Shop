@@ -19,7 +19,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [1.0.0] - 2026-01-24
 
-### ✨ Ajouté
+###  Ajouté
 
 #### Structure de base
 - Structure HTML5 sémantique complète
@@ -100,7 +100,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 - Guide de contribution
 - Exemples de code commentés
 
-### 🎨 Design System
+###  Design System
 
 #### Variables CSS
 - Couleurs principales, secondaires et d'accent
@@ -118,7 +118,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 - Navigation
 - Footer
 
-### 🔧 Technique
+###  Technique
 
 #### Technologies
 - HTML5
@@ -138,7 +138,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 - Tablette : 768px - 992px
 - Desktop : > 992px
 
-### 🐛 Corrections
+###  Corrections
 - N/A (première version)
 
 ### 🔒 Sécurité
@@ -151,7 +151,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## Types de modifications
 
-- `✨ Ajouté` : nouvelles fonctionnalités
+- ` Ajouté` : nouvelles fonctionnalités
 - `🔄 Modifié` : modifications des fonctionnalités existantes
 - `❌ Déprécié` : fonctionnalités bientôt supprimées
 - `🗑️ Supprimé` : fonctionnalités supprimées
