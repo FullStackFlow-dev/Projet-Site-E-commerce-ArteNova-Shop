@@ -1,0 +1,74 @@
+# ========================================
+# Configuration Netlify pour ArtéNova Shop
+# ========================================
+
+# Paramètres de build
+[build]
+  # Dossier contenant les fichiers à déployer
+  publish = "."
+  
+  # Commande de build (aucune nécessaire pour un site statique)
+  command = "echo 'No build command needed for static site'"
+
+# Redirections et règles de routage
+[[redirects]]
+  # Redirection pour SPA (si vous convertissez en application React/Vue plus tard)
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  # Désactivé par défaut pour un site statique multi-pages
+  # force = false
+
+# Headers de sécurité et performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Sécurité
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    
+    # Performance - Cache pour les assets statiques
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    # Cache plus court pour les pages HTML
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Paramètres de l'environnement
+[context.production.environment]
+  NODE_VERSION = "18"
+
+[context.deploy-preview.environment]
+  NODE_VERSION = "18"
+
+# Configuration des fonctions (si vous ajoutez des Netlify Functions plus tard)
+[functions]
+  directory = "functions"
+
+# Plugins Netlify (optionnels - décommentez si nécessaire)
+# [[plugins]]
+#   package = "@netlify/plugin-sitemap"
+#   [plugins.inputs]
+#     buildDir = "."
+
+# Formulaires Netlify (si vous ajoutez des formulaires)
+# [build.processing.html]
+#   pretty_urls = true
+
+# Optimisation des images (optionnel)
+# [[plugins]]
+#   package = "netlify-plugin-image-optim"
