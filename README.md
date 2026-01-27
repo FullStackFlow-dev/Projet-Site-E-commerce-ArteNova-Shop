@@ -294,7 +294,7 @@ Dans `index.html`, dupliquez cette structure dans la section produits :
         <div class="rating">
             <!-- Étoiles de notation -->
         </div>
-        <p class="price">Prix€</p>
+        <p class="price">Prix-FCFA</p>
         <button class="btn-add-cart">
             <i class="fas fa-shopping-cart"></i> Ajouter au panier
         </button>
@@ -319,7 +319,7 @@ Recherchez et remplacez dans `index.html` :
 <img src="images/votre-image.jpg" alt="Description">
 ```
 
-## 🔧 Configuration Git
+##  Configuration Git
 
 ### Initialiser Git (si pas encore fait)
 
@@ -393,10 +393,10 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👤 Auteur
 
-**ArtéNova Shop**
+**FullStackFlow-dev**
 - Website: [artenovashop.com](https://artenovashop.com) (à configurer)
-- Email: support@artenovashop.com
-- GitHub: [@votre-username](https://github.com/votre-username)
+- Email: merphy97@gmail.com
+- GitHub: [FullStackFlow-dev](https://github.com/FullStackFlow-dev)
 
 ## 🙏 Remerciements
 
