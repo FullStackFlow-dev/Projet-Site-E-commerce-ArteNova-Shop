@@ -192,6 +192,17 @@ artenova-shop/
     └── guides/   
 ```
 
+### Docs/screenshots
+
+Ce dossier contient les captures d'ecran utilisées pour illustrer la documentation du projet.
+
+Elles servent à :
+- Présenter l'interface utilisteur et les fonctionnalités principales.
+- Expliquer visuellement certaines étapes d'installation ou de configuration.
+- Fournir des exemples concrets pour faciliter la compréhension des utilisateurs et des contributeurs.
+
+> Les fichies doivents etre  nommés de manière claire et cohérente (ex. `feature-login.png`, `setup-guide-01.png`) afin de garantir une bonne organisation et une maintenance simplifiée.
+
 ### Description des fichiers principaux :
 
 - **index.html** : Structure HTML complète du site avec toutes les sections
