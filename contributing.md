@@ -1,6 +1,5 @@
-# Guide de Contribution - ArtéNova Shop
-
-Merci de votre intérêt pour contribuer à ArtéNova Shop ! 🎉
+# Guide de Contribution - ArtéNova Shop 
+Merci de votre intérêt pour contribuer à ArtéNova Shop ! 
 
 ## Table des matières
 
@@ -346,9 +345,9 @@ Testez sur au moins :
 Si vous avez des questions :
 
 1. Consultez la [documentation](README.md)
-2. Recherchez dans les [issues existantes](https://github.com/votre-username/artenova-shop/issues)
+2. Recherchez dans les [issues existantes](https://github.com/FullStackFlow-dev/artenova-shop/issues)
 3. Créez une nouvelle issue avec le label "question"
-4. Contactez-nous à support@artenovashop.com
+4. Contactez-nous à merphy97@gmail.com
 
 ## Remerciements
 
