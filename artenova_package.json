@@ -1,0 +1,34 @@
+{
+  "name": "artenova-shop",
+  "version": "1.0.0",
+  "description": "Site e-commerce moderne et responsive pour ArtéNova Shop - Produits artisanaux de qualité",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=3000 --open=index.html",
+    "deploy:netlify": "netlify deploy --prod",
+    "deploy:vercel": "vercel --prod"
+  },
+  "keywords": [
+    "e-commerce",
+    "shop",
+    "artisanal",
+    "boutique",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "ArtéNova Shop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-username/artenova-shop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/votre-username/artenova-shop/issues"
+  },
+  "homepage": "https://github.com/votre-username/artenova-shop#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
