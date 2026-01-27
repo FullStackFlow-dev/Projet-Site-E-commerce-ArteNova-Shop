@@ -123,8 +123,13 @@ artenova-shop/
 │   │   │   ├── ceramique.jpg
 │   │   │   └── savons-naturels.jpg
 │   │   │
-│   │   ├── 📁 hero/             # Images hero/bannières
-│   │   │   └── banner.jpg
+│   │   ├── 📁 hero/                           ├── hero-banner.jpg           # Image principale de la bannière
+    ├── hero-bg-pattern.svg       # Motif de fond stylisé
+    ├── hero-text.svg             # Texte vectorisé ("Nouvelle collection")
+    ├── hero-cta-button.png       # Visuel du bouton "Acheter maintenant"
+    ├── hero-mobile.webp          # Version mobile optimisée
+    ├── hero-accessories.jpg      # Image secondaire (sacs, chaussures)
+    └── hero-overlay.png          # Effet graphique en superposition
 │   │   │
 │   │   ├── 📁 blog/             # Images pour le blog
 │   │   │   ├── article-1.jpg
