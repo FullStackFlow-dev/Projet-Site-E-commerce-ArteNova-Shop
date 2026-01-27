@@ -315,6 +315,6 @@ Prochaine étape : Personnalisez-le à votre image et ajoutez vos propres produi
 
 **Temps total** : ~10 minutes  
 **Niveau** : Débutant  
-**Résultat** : Site e-commerce fonctionnel ✨
+**Résultat** : Site e-commerce fonctionnel 
 
-Bon développement ! 🚀
+Bon développement ! 
