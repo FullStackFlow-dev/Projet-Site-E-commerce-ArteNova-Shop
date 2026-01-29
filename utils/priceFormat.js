@@ -5,5 +5,4 @@ function formatPrice(amount) {
   });
   return formatter.format(amount);
 }
-
 module.exports = formatPrice;
