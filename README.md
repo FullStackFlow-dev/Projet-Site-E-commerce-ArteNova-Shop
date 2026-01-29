@@ -1,3 +1,5 @@
+[![Deploy static content to Pages](https://github.com/FullStackFlow-dev/Projet-Site-E-commerce-ArteNova-Shop/actions/workflows/static.yml/badge.svg)](https://github.com/FullStackFlow-dev/Projet-Site-E-commerce-ArteNova-Shop/actions/workflows/static.yml)
+
 # ArtéNova Shop 🛍️
 
 Site e-commerce moderne et responsive pour produits artisanaux de qualité.
