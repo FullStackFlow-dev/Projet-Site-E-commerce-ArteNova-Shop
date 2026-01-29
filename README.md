@@ -1,8 +1,8 @@
 [![Deploy static content to Pages](https://github.com/FullStackFlow-dev/Projet-Site-E-commerce-ArteNova-Shop/actions/workflows/static.yml/badge.svg)](https://github.com/FullStackFlow-dev/Projet-Site-E-commerce-ArteNova-Shop/actions/workflows/static.yml)
-[![Vercel Status](https://vercelbadge.vercel.app/api/merph-dev/artenova-shop)](https://vercel.com/merph-dev/artenova-shop)
+[![Vercel Status](https://vercelbadge.vercel.app/api/FullStackFlow-dev/artenova-shop)](https://vercel.com/FullStackFlow-dev/artenova-shop)
 [![Live Demo](https://img.shields.io/badge/demo-online-green)](https://artenova-shop.vercel.app)
-[![License](https://img.shields.io/github/license/merph-dev/artenova-shop.svg)](https://github.com/merph-dev/artenova-shop/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/merph-dev/artenova-shop?style=social)](https://github.com/merph-dev/artenova-shop/stargazers)
+[![License](https://img.shields.io/github/license//FullStackFlow-dev/artenova-shop.svg)](https://github.com/FullStackFlow-dev/artenova-shop/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/FullStackFlow-dev/artenova-shop?style=social)](https://github.com/FullStackFlow-dev/artenova-shop/stargazers)
 
 # ArtéNova Shop 🛍️
 
