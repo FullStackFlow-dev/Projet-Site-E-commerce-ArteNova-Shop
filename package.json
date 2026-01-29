@@ -32,3 +32,6 @@
   "devDependencies": {},
   "dependencies": {}
 }
+"scripts": {
+  "test": "jest"
+}
