@@ -3,6 +3,7 @@
 [![Live Demo](https://img.shields.io/badge/demo-online-green)](https://artenova-shoponline.vercel.app)
 [![License](https://img.shields.io/github/license//FullStackFlow-dev/artenova-shop.svg)](https://github.com/FullStackFlow-dev/artenova-shop/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/FullStackFlow-dev/artenova-shop?style=social)](https://github.com/FullStackFlow-dev/artenova-shop/stargazers)
+[![CI](https://github.com/FullStackFlow-dev/Projet-Site-E-commerce-artenovashop/github/workflows/ci.yml)]
 
 # ArtéNova Shop 🛍️
 
