@@ -1,4 +1,4 @@
-<h1 align="center">ArtéNova Shop</h1>
+<h1 align="center">ArtéNova Shop  🛍️</h1>
 
 <p align="center">
   <strong>Une expérience e-commerce moderne, intelligente et pensée pour le commerce de mode.</strong>
