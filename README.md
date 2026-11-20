@@ -22,7 +22,7 @@
 
 ---
 
-## Table des matières
+## 📋 Table des matières
 
 1. [Présentation](#1-présentation)
 2. [Vision et objectifs](#2-vision-et-objectifs)
@@ -413,7 +413,15 @@ Cette organisation représente une structure cible à introduire
 progressivement. Elle ne prétend pas décrire exactement l'arborescence
 actuelle du dépôt.
 
+  
 ## 10. Démarrage local --- version historique
+
+## 📦 Installation
+
+### Prérequis
+- Un navigateur web moderne (Chrome, Firefox, Safari, Edge)
+- Un éditeur de code (VS Code recommandé)
+- Git (pour le clonage et le versioning)
 
 La première version du projet utilise HTML, CSS et JavaScript avec
 quelques scripts Node.js pour les tests et le serveur local.
