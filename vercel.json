@@ -11,7 +11,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "script.js",
+      "src": "scripts.js",
       "use": "@vercel/static"
     }
   ],

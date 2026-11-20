@@ -138,7 +138,7 @@ function updateCartDisplay() {
     const totalText = cart.total.toFixed(2);
     cartBtn.innerHTML = `
         <i class="fas fa-shopping-cart"></i>
-        <span class="cart-count">${cart.items.length}</span> Articles - (${totalText}€)
+        <span class="cart-count">${cart.items.length}</span> Articles - (${totalText} FCFA)
     `;
 }
 

@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npx http-server -p 8000 -o",
     "dev": "npx live-server --port=3000 --open=index.html",
+    "test": "jest",
     "deploy:netlify": "netlify deploy --prod",
     "deploy:vercel": "vercel --prod"
   },
@@ -23,15 +24,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/votre-username/artenova-shop.git"
+    "url": "https://github.com/FullStackFlow-dev/Projet-Site-E-commerce-ArteNova-Shop.git"
   },
   "bugs": {
-    "url": "https://github.com/votre-username/artenova-shop/issues"
+    "url": "https://github.com/FullStackFlow-dev/Projet-Site-E-commerce-ArteNova-Shop/issues"
   },
-  "homepage": "https://github.com/votre-username/artenova-shop#readme",
-  "devDependencies": {},
+  "homepage": "https://github.com/FullStackFlow-dev/Projet-Site-E-commerce-ArteNova-Shop#readme",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
   "dependencies": {}
-}
-"scripts": {
-  "test": "jest"
 }

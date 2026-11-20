@@ -7,7 +7,7 @@
 
 # ArtéNova Shop 🛍️
 
-Site e-commerce moderne et responsive pour produits artisanaux de qualité.
+Site e-commerce moderne et responsive pour des produits de mode et de qualité.
 
 ## 📋 Table des matières
 

@@ -1,8 +1,4 @@
 function formatPrice(amount) {
-  const formatter = new Intl.NumberFormat("fr-FR", {
-    style: "currency",
-    currency: "XOF"
-  });
-  return formatter.format(amount);
+  return amount.toLocaleString("fr-FR") + " FCFA";
 }
 module.exports = formatPrice;
