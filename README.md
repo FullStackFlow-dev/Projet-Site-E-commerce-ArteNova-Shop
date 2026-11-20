@@ -477,6 +477,51 @@ https://github.com/FullStackFlow-dev/Projet-Site-E-commerce-ArteNova-Shop
 
 ------------------------------------------------------------------------
 
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! Voici comment contribuer :
+
+1. Forkez le projet
+2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`)
+3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
+4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
+
+##  Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 👤 Auteur
+
+**FullStackFlow-dev**
+- Website: [artenovashop.com](https://artenovashop.com) (à configurer)
+- Email: merphy.softwareengineer@gmail.com
+- GitHub: [FullStackFlow-dev](https://github.com/FullStackFlow-dev)
+
+## 🙏 Remerciements
+
+- Font Awesome pour les icônes
+- Inspiration du design basée sur des sites e-commerce modernes
+- Communauté open source
+
+---
+
+⭐ Si vous aimez ce projet, n'hésitez pas à lui donner une étoile sur GitHub !
+
+## 📞 Support
+
+Pour toute question ou problème :
+- Ouvrez une [issue](https://github.com/FullStackFlow.dev/artenova-shop/issues
+- Envoyez un email à merphy.softwareengineer@gmail.com
+
+- https://fullstackflow-dev.github.io/Projet-Site-E-commerce-ArteNova-Shop/
+
+---
+
+Fait avec ❤️ pour ArtéNova Shop
+
+---
+
 *ArtéNova Shop --- une initiative entrepreneuriale indépendante,
 développée progressivement vers une plateforme e-commerce complète et
 intelligente.*
